@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Running uicache...
+uicache -p /Applications/Stasis.app
+echo Done!
