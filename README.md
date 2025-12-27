@@ -10,7 +10,7 @@ Stasis should support all the way down to tvOS 14.0, but I only have my one tvOS
 
 This is a really simple app. I would have included tvOS 13.x support, but SwiftUI on appleOS 13 is miserable. All it does is...
 
-- Checks if /var/mobile/Library/Preferences/com.apple.MobileAsset.plist exists
+- Checks if `/var/mobile/Library/Preferences/com.apple.MobileAsset.plist` exists
 - If it does, pressing the toggle button removes it, as updates were likely disabled using it
 - If it doesn't, pressing the toggle button writes it there with some really simple contents.
 
