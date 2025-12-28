@@ -8,3 +8,4 @@ Author: Taj C (forcequit)
 Section: Utilities
 Depends: firmware (>= 14.0)
 Icon: https://raw.githubusercontent.com/forcequitOS/etaTV/main/assets/icons/StasisIcon256.png
+Conflicts: cc.forcequit.stasis.lite
