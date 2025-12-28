@@ -34,11 +34,17 @@ struct ContentView: View {
             
             // The grand toggle button (middle)
             Button {
-                withAnimation(.snappy(duration: 0.15)) {
-                    toggleUpdates()
-                }
+                toggleUpdates()
             } label: {
-                Label(updatesDisabled ? "Enable Updates" : "Disable Updates", systemImage: "gear")
+                VStack(spacing: 20) {
+                    Image(systemName: "gear")
+                        .font(.system(size: 150))
+                    Text(updatesDisabled ? "Enable Updates" : "Disable Updates")
+                        .font(.headline)
+                }
+                .frame(width: 300, height: 300)
+                // Previously: Label(updatesDisabled ? "Enable Updates" : "Disable Updates", systemImage: "gear")
+                // Kinda looked better, kinda looked worse, I don't know. Wanted to try something that looked more like the Control Center Power Off button.
             }
             
             Spacer()

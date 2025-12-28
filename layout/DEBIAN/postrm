@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Running UICache...
-uicache -f -p /Applications/Stasis.app
+uicache -f -u /Applications/Stasis.app
 echo Killing Processes...
 killall Stasis
 echo Done!

@@ -1,10 +1,10 @@
 Package: cc.forcequit.stasis
 Name: Stasis
-Version: 1.0
+Version: 1.1
 Architecture: appletvos-arm64
 Description: Graphical app to block OTA software updates on modern tvOS. Requires tvOS 14.0 or newer!
 Maintainer: Taj C (forcequit)
 Author: Taj C (forcequit)
-Section: Tweaks
+Section: Utilities
 Depends: firmware (>= 14.0)
 Icon: https://raw.githubusercontent.com/forcequitOS/etaTV/main/assets/icons/StasisIcon256.png
