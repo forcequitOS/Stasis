@@ -3,6 +3,7 @@ tvOS jailbreak & TrollStore utility to disable OTA software updates.
 
 So far, Stasis has been verified working on:
 - tvOS 26.2 (23K54) on Apple TV 4K (1st generation)
+- tvOS 15.2 (19K53) on Apple TV HD / (4th generation)
 
 You absolutely **must** (userspace) reboot your Apple TV after disabling/enabling updates for changes to apply! I have warning in the app too for good measure. Please don't harass me if your Apple TV auto-updates just because you didn't restart after applying.
 
