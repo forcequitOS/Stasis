@@ -2,14 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<!-- I almost definitely don't need this many entitlements but I don't feel like minimizing the amount it has. -->
+	<!-- Okay some of these might actually be helpful now. -->
 	<key>platform-application</key>
 	<true/>
 	<key>com.apple.private.security.no-sandbox</key>
 	<true/>
 	<key>com.apple.security.exception.files.absolute-path.read-write</key>
 	<array>
-		<string>/</string>
+		<string>/private/var</string>
 	</array>
 	<key>com.apple.private.security.no-container</key>
 	<true/>
