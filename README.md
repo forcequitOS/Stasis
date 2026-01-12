@@ -48,3 +48,5 @@ Open TrollStore, select the Install from URL button, and enter https://etatv.for
 [ChatGPT, working with plists and doing killall in Swift](https://chat.com)
 
 Have fun blocking updates!
+
+<sub>Note: I'm aware of an edge case where Stasis will be completely unable to block updates for some users, however, more research would have to be done to identify how a fix could be made. If you experience this issue, and have a jailbreakable / jailbroken Apple TV, please report an issue and I'll get in touch with you.</sub>
